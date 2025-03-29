@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escoja un nombre de Bebé al azar en Español</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        table { margin: 20px auto; border-collapse: collapse; width: 80%; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #f2f2f2; }
+        img { width: 200px; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Escoja un nombre de Bebé al azar en Español</h1>
+    <h1>随机选择一个西班牙语的婴儿名字</h1>
+    <button onclick="chooseName('boy')">Chico</button>
+    <button onclick="chooseName('girl')">Chica</button>
+    <table id="nameTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Género</th>
+                <th>Significado</th>
+                <th>Historia</th>
+                <th>Personas Famosas</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <table id="detailsTable">
+        <thead>
+            <tr>
+                <th>Fecha de Nacimiento</th>
+                <th>Fecha de Defunción</th>
+                <th>Nacionalidad</th>
+                <th>Logros en Vida</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
